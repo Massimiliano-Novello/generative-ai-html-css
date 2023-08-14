@@ -1,3 +1,8 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
 .header {
     height: 100px;
     background-color: blue;
@@ -37,7 +42,6 @@ h1 {
 }
 
 .first-section {
-    text-align: center;
     margin-top: 20px;
 }
 
@@ -46,6 +50,42 @@ h1 {
     margin-top: 30px;
 }
 
-.card-title {
-    text-align: left;
+.gtp-section {
+    margin-top: 20px;
+}
+
+.chatgpt-section {
+    margin-top: 30px;
+}
+
+.chatgpt-section img {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.dall-e-section {
+    margin-top: 30px;
+    display: flex;
+}
+
+.content {
+    margin-left: 10px;
+}
+
+footer {
+    height: 100px;
+    background-color: blue;
+}
+
+.footer-content {
+    color: white;
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.footer-content a {
+    color: cornflowerblue;
 }
